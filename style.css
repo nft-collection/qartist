@@ -1,0 +1,100 @@
+:root {
+  --bg: white;
+  --color1: black;
+  --color2: white;
+  --blue: #1e90ff;
+  --blue2: #93d5ff;
+  --grey: #252426;
+  --red: #ef2828;
+  --glow: #252426;
+  --font1: 'Lato';
+  --font2: 'Verdana';
+
+}
+
+
+
+.button1 {
+font-weight: bold;
+font-family: var(--font1); 
+border-radius: 2px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: inline-block;
+  cursor: pointer;
+  padding: 16px 32px;
+  font-size: 150%;
+  background-color: var(--bg); 
+  color: var(--color1); 
+  border: 15px solid var(--color1); 
+ 
+} 
+
+.active, .button1:hover {
+  background-color: var(--color1);
+  color: var(--color2); 
+ 
+}
+
+.button2 {
+font-weight: bold;
+font-family: var(--font1); 
+border-radius: 2px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 10px;
+  font-size: 125%;
+  background-color: var(--bg); 
+  color: var(--color1); 
+  border: 5px solid var(--color1); 
+ 
+} 
+
+.active, .button2:hover {
+  background-color: var(--color1);
+  color: var(--color2); 
+ 
+}
+
+.row2 {
+  margin: 0px 0px;
+}
+
+/* Add padding BETWEEN each column */
+.row2,
+.row2 > .column2 {
+  padding: 15px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 33%;
+
+  
+}
+
+/* Clear floats after rows */ 
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 0px;
+}
+
+/* Content */
+
+.content2 {
+
+  padding: 0px;
+border: 0px solid var(--bg); 
+}
+
+.content2:hover {
+border: 0px solid var(--bg); 
+  padding: 0px;
+
+
+}
